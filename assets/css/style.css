@@ -1,0 +1,111 @@
+body {
+    margin: 0%;
+    font-family:'Ysabeau Infant', sans-serif;
+}
+
+.principal-container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+    gap: 5px;
+    grid-template-columns: auto 85%;
+    
+}
+
+header {
+    grid-area: header;
+    background-color: #000000;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+    color: #de88b2;
+}
+
+aside {
+    grid-area: menu; 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 1em;
+}
+
+main {
+    grid-area: main;
+    background-color: #fae2e6;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #000000;
+    text-align: center;
+    font-weight: bold;
+    color: #de88b2;
+}
+
+a {
+    text-decoration: none;
+    color:grey
+}
+
+a:hover{
+    color:#d73052
+}
+.hot-sale {
+    color: red;
+    font-weight: 700;
+}
+
+span {
+    color: grey;
+    font-weight: 600;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-items:center;
+    align-items: center;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFF;
+    border-radius: 20px;
+    
+}
+
+.text-card {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    text-align: center;
+}
+.price {
+    margin: 5%;
+    font-weight: bold;
+}
+
+button {
+    background-color: #FE889F;
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    
+}
+
+button:hover {
+    background-color: #de88b2;
+}
+
+img {
+    width: 200px;
+    margin-top: 15px;
+    
+}
+
